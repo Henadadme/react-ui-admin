@@ -39,7 +39,12 @@ class View extends React.Component {
                             <div className="item-wrapper">
                                 <div className="row mb-3">
                                     <div className="col-md-8 mx-auto">
+                                        {
+                                            /*
 
+                                            you set the form values here
+                                             */
+                                        }
                                         <div className="form-group row showcase_row_area">
                                             <div className="col-md-3 showcase_text_area">
                                                 <label htmlFor="inputType12">App Name</label>

@@ -15,6 +15,7 @@ class Dashboard extends React.Component {
     }
 
     logout(e) {
+        //you clear the local storage example ->  localStorage.setItem('user' , '') -> so you can change the value to null or an empty string
         this.props.history.push('/login')
     }
 

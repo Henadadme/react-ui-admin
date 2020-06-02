@@ -14,6 +14,7 @@ class SignUp extends React.Component {
 
     signUp(e) {
         e.preventDefault();
+        //you axios call here -> whatever your response is you know what to do
     }
 
     componentDidMount() {

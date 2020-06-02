@@ -19,6 +19,10 @@ class Organizations extends React.Component {
                     </div>
                 </div>
                 <div className="row">
+                    {/*
+                        you will want to display all here!
+                        so your this.state.variableName.map start here at the beginning of this div
+                    */}
                     <div className="col-md-3 col-sm-6 col-6 equel-grid">
                         <div className="grid">
                             <div className="grid-body text-gray">
@@ -33,6 +37,9 @@ class Organizations extends React.Component {
                             </div>
                         </div>
                     </div>
+                    {/*
+                       and ends here! good?
+                    */}
                 </div>
             </div>
 

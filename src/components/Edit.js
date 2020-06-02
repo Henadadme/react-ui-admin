@@ -15,6 +15,7 @@ class Edit extends React.Component {
 
     editAppNow(e) {
         e.preventDefault()
+        //you push the changes
     }
 
     handleChange(e) {
@@ -22,6 +23,7 @@ class Edit extends React.Component {
     }
 
     componentDidMount() {
+        //here you write your axios call again to set the state of the form values
     }
 
     render() {
